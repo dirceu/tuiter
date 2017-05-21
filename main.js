@@ -7,7 +7,9 @@ let mainWindow
 function createWindow () {
   mainWindow = new BrowserWindow({width: 455, height: 755})
   mainWindow.loadURL('https://mobile.twitter.com')
-  mainWindow.webContents.openDevTools()
+  if (process.env.DEBUG) {
+    mainWindow.webContents.openDevTools()
+  }
 
   mainWindow.on('closed', () => {
     mainWindow = null

@@ -4,7 +4,8 @@
   "description": "Twitter Lite client using Electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "DEBUG=true electron ."
   },
   "repository": "https://github.com/dirceu/tuiter",
   "keywords": [
