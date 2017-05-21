@@ -1,0 +1,22 @@
+{
+  "name": "tuiter",
+  "version": "1.0.0",
+  "description": "Twitter Lite client using Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/dirceu/tuiter",
+  "keywords": [
+    "twitter",
+    "electron",
+    "client",
+    "lite",
+    "mobile"
+  ],
+  "author": "Dirceu Pereira Tiegs <dirceutiegs@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
